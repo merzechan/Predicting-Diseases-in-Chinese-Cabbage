@@ -1,4 +1,4 @@
-### Predicting Diseases in Chinese Cabbage
+# Predicting Diseases in Chinese Cabbage
 
 ## Problem Statement
 
