@@ -60,7 +60,7 @@ After 300 or so epochs, the model is still far from perfect, achieving only 0.54
 
 ## Future Recommendations
 
-In order to further improve upon the model, there is a 2-pronged approach to tackle this problem:
+In order to further improve upon the model, there is a 2-pronged approach to tackle this problem which is to tackle the data source and the model itself:
 
 - Gather more data: by that we mean more varied data from various farms, more severe and critical looking blights, taking photos with different cameras (different phones have different post-processing), etc. Looking through the raw data, we notice that there is too much of the same shade of green, brown and yellow, misleading the training process of the model. Generating with random brightness might mitigate some of the problems, but it would be better to gather more robust dataset from the onset.
 - Develop bounding boxes: As shown in the LIME example above, the model does not immediately home on the main subject of the picture. In fact, it has labelled parts of the main subject as negative, leading to a wrong prediction. In order to counter this, we could develop bounding box to home in on the main subject of the picture and limit the training on that set of data
