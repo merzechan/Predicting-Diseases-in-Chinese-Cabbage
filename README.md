@@ -42,17 +42,17 @@ Several transfer learning models were used including but not limited to MobileNe
 
 Looking at the sample predictions, it shows that the model can still be rather inconclusive at predicting the correct class as shown below:
 
-![](C:\Users\65908\Desktop\Capstone\img\batch_predict.png)
+![](.\img\batch_predict.png)
 
 The model has difficulty separating between the backmoth and mildew classes. This is further elaborated in the overall confusion matrix below:
 
-![](C:\Users\65908\Desktop\Capstone\img\Confusion_Matrix.png)
+![](.\img\Confusion_Matrix.png)
 
 Here we observe that the model is best at predicting healthy classes, with the highest f1 score for said class at 0.74, and a macro f1 score of 0.54.  Accuracy of the model has also increased a long way to 0.59, especially considering that it was previously only predicting the majority class to achieve 0.62 accuracy. However, most interestingly is the LIME explanations as shown:
 
-![Baseline Model](C:\Users\65908\Desktop\Capstone\img\LIME_old.png)
+![Baseline Model](.\img\LIME_old.png)
 
-![Final Model](C:\Users\65908\Desktop\Capstone\img\LIME.png)
+![Final Model](.\img\LIME.png)
 
 Above we have the baseline model's feature importance, while below we have the final model's. Here we observe that the superpixel clusters generally forms smaller clusters with more training, even though they still have a tendency to pick up the noise in the data.
 
