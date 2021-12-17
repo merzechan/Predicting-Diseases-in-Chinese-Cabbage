@@ -12,6 +12,8 @@ Typically, Backmoth or Diamond-back Month caterpillars eat the leaves aggressive
 
 With that information in mind, we will develop a neural network model to assist in diagnosing these blights in Chinese Cabbage.
 
+Due to size limits, the dataset and model will not be uploaded in this repository, but is available on request.
+
 ### Metrics and Diagnostic Tools
 
 Evaluation of the final model is done on several metrics, the primary being F1 score, followed by precision, recall and accuracy.
